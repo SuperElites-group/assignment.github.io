@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUPER ELITES WEBPAGE</title>
+
+    <style>
+      /* Center all content */
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        background-color: rgba(236, 237, 237, 0.128);
+      }
+
+      header,
+      section {
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 10px;
+        
+      }
+
+      header{
+        background-color: #1DB954;
+        border-radius: 9px;
+        color: white;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      /* Custom list styling */
+      .custom-bullets-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .custom-bullets-list li::before {
+        content: "✓ ";
+        color: red;
+      }
+
+      .numbered-list-style {
+        list-style-type: decimal;
+        display: inline-block;
+        text-align: left;
+      }
+
+      .symbol-list-only {
+        list-style: none;
+        padding-left: 0;
+      }
+      .symbol-list-only li::before {
+        content: "➔ ";
+        color: purple;
+      }
+
+      .roman-list-style {
+        list-style-type: upper-roman;
+        display: inline-block;
+        text-align: left;
+        text-transform: capitalize;
+      }
+
+      .no-bullets-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      section h3,
+      h2 {
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 10px;
+      }
+
+      footer a {
+        color: yellow;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+
+
+<!-- 
+    This is a simple webpage done by the Super Elites Group and we chose MTN as the reference company for this presentation -->
+    <header>
+      <h1>WELCOME TO MTN UGANDA</h1>
+    </header>
+
+    <section>
+      <h3>About the Company</h3>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/93/New-mtn-logo.jpg"
+        alt="logo"
+        width="100px"
+      />
+      <p>
+        <strong>MTN Uganda</strong> is the largest telecom company in Uganda,
+        with <mark>11.2 million subscribers</mark>, accounting for
+        <em> 55 percent market share</em>, as of 30 June 2017. By 31 December
+        2019, <i>its customer base had increased</i> to
+        <u>12.6 million customers</u>.
+      </p>
+      <p>
+        MTN Uganda is one of the <b>largest taxpayers</b> in the country,<mark
+          >contributing significantly to the national economy.</mark
+        >
+      </p>
+    </section>
+
+    <section>
+      <h2>Regional Coverage</h2>
+
+      <h3>Top Districts <mark>Custom Bullets</mark></h3>
+      <ol class="custom-bullets-list">
+        <li>Kampala</li>
+        <li>Mbarara City</li>
+        <li>Gulu City</li>
+        <li>Kanungu District</li>
+      </ol>
+
+      <h3>Awards Received by MTN Uganda <mark>Number list</mark></h3>
+      <ul class="numbered-list-style">
+        <li>Best Mobile Network in Uganda (Multiple Years)</li>
+        <li>Best Mobile Money Service</li>
+        <li>Best Data Service Provider</li>
+        <li>Environmental Sustainability Award</li>
+        <li>Best Company in Community Engagement</li>
+        <li>Best Company Supporting Youth Empowerment</li>
+        <li>Award for Women Empowerment</li>
+      </ul>
+
+      <h3>Key Facts About MTN Uganda <mark>Description list</mark></h3>
+      <dl>
+        <dt>Established</dt>
+        <dd>21 October 1998</dd>
+        <dt>Location</dt>
+        <dd>Kampala, Uganda</dd>
+        <dt>Accreditation</dt>
+        <dd>Telecom Company</dd>
+      </dl>
+
+      <h3>Services Offered by MTN Uganda <mark>Symbols list</mark></h3>
+      <ul class="symbol-list-only">
+        <li>Wi-Fi Hotspots</li>
+        <li>Business Mobile Money</li>
+        <li>Ayoba</li>
+        <li>Caller Tunes</li>
+        <li>Insurance Services</li>
+        <li>MTN Ace Tech</li>
+        <li>USSD Services</li>
+        <li>International Roaming</li>
+      </ul>
+
+      <h3>Group Members <mark>Roman numerals</mark></h3>
+      <!-- These are the Group members -->
+
+      <ol class="roman-list-style">
+        <li>Odeke Patrick   ID 224675
+        </li>
+        <li>Namatovu Winnie   ID 233115
+        </li>
+        <li>Nalutaaya Fatumah  ID 235275</li>
+        <li>Wani Emmanuel  ID 234719
+        </li>
+        <li>Etenu Dominic    ID  231463
+        </li>
+        <li>Komakech Richard   ID 160512</li>
+        <li>Ochan Allan Nyero  ID 235990
+        </li>
+        <li>Bayo Jonard    ID 224726
+        </li>
+        <li>Mbara Godfrey ID 235727
+        </li>
+        <li>Kiyimba Johnson  ID 236434
+        </li>
+       
+      </ol>
+    </section>
+
+
+
+    <footer>
+      <p>Explore our website:</p>
+      <h3>
+        <a href="https://www.cavendish.ac.ug/" target="">
+          Visit my Cavendish University
+        </a>
+      </h3>
+    </footer>
+  </body>
+</html>
